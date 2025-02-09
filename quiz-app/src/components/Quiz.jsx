@@ -1,5 +1,5 @@
 import React, { useEffect, useState , useRef} from "react";
-import {useNavigate} from "react-router-dom";
+import {useNavigate, useLocation} from "react-router-dom";
 
 function Quiz() {
   const [loading, setLoading] = useState(true);
@@ -8,11 +8,16 @@ function Quiz() {
   const [Index, setIndex] = useState(0);
   const [selectedOption,setSelectedOption]=useState(null);
 
-  
+  const location=useLocation();
   const navigate=useNavigate();
   const scoreRef= useRef(0);
   const attemptedRef = useRef(0);
   useEffect(() => {
+    if(location.state?.reset)
+    {
+      scoreRef.current=0;
+      attemptedRef.current=0;
+    }
     const fetchQuizData = async () => {
       const API_URL = "http://localhost:3000/api/quiz";
       try {
