@@ -10,7 +10,7 @@
 ## 📸 Screenshots  
 | Home Page | Quiz Page | Leaderboard |
 |-----------|----------|-------------|
-| ![Home Page](public/screenshot1.png) | ![Quiz Page](public/screenshot2.png) | ![Leaderboard](public/screenshot3.png) |
+| ![Home Page](quiz-app/public/screenshot1.png) | ![Quiz Page](quiz-app/public/screenshot2.png) | ![Leaderboard](quiz-app/public/screenshot3.png) |
 
 📽️ **Video Walkthrough:**  
 [Watch the video](public/video.mp4)
