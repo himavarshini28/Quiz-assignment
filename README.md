@@ -52,6 +52,7 @@ MONGO_URI=your_mongodb_connection_string
 ```bash
 npm start
 ```
+---
 ## API Endpoints
 
 ### Quiz API
@@ -63,8 +64,9 @@ npm start
   - Submits user quiz results (name, score, time).
 - `GET /api/leaderboard`  
   - Retrieves the global leaderboard with all users' scores.
+---
 
-###📌 Deployment
+### Deployment
 Frontend: Deployed on Vercel → [Live App](https://quiz-assignment-two.vercel.app/)
 Backend: Deployed on Vercel → [API Endpoint](https://quiz-assignment-bkbt.vercel.app/)
 
