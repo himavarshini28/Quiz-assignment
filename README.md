@@ -13,15 +13,15 @@
 | ![Home Page](public/screenshot1.png) | ![Quiz Page](public/screenshot2.png) | ![Leaderboard](public/screenshot3.png) |
 
 📽️ **Video Walkthrough:**  
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)  
+[Watch the video](public/video.mp4)
 
 ---
 
 ## 🛠️ Features  
-✅ Fetches quiz questions from an API  
-✅ Live timer with progress animation 
-✅ Global leaderboard using MongoDB  
-✅ Fully responsive and modern UI  
+- ✅ Fetches quiz questions from an API  
+- ✅ Live timer with progress animation  
+- ✅ Global leaderboard using MongoDB  
+- ✅ Fully responsive and modern UI  
 
 
 ---
