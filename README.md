@@ -13,7 +13,7 @@
 | ![Home Page](quiz-app/public/screenshot1.png) | ![Quiz Page](quiz-app/public/screenshot2.png) | ![Leaderboard](quiz-app/public/screenshot3.png) |
 
 📽️ **Video Walkthrough:**  
-[Watch the video](public/video.mp4)
+[Watch the video]([public/video.mp4](https://drive.google.com/file/d/10qV4Jawbd0RV2KbRtApbBljgwnhY24Hg/view?usp=sharing))
 
 ---
 
