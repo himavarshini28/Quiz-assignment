@@ -36,7 +36,7 @@ function Quiz() {
 
   useEffect(() => {
     const fetchQuizData = async () => {
-      const API_URL = "http://localhost:5000/api/quiz";
+      const API_URL = "https://quiz-assignment-bkbt.vercel.app/api/quiz"; 
       try {
         const response = await fetch(API_URL);
         if (!response.ok) {
@@ -69,7 +69,7 @@ function Quiz() {
     const username = localStorage.getItem("username") || "Unknown User";
     const participantData = { name: username, score: scoreRef.current, timeTaken: completionTime };
     try {
-      await fetch("http://localhost:5000/api/leaderboard", {
+      await fetch("https://quiz-assignment-bkbt.vercel.app/api/leaderboard", { 
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(participantData),
@@ -121,9 +121,7 @@ function Quiz() {
           <motion.button
             key={option.id}
             onClick={() => handleSelectOption(option.id)}
-            className={`px-6 py-3 text-lg font-semibold rounded-lg shadow-md transition duration-300 w-full ${
-              selectedOption === option.id ? "bg-blue-500 text-white" : "bg-gray-800 hover:bg-gray-600 text-white"
-            }`}
+            className={`px-6 py-3 text-lg font-semibold rounded-lg shadow-md transition duration-300 w-full ${selectedOption === option.id ? "bg-blue-500 text-white" : "bg-gray-800 hover:bg-gray-600 text-white"}`}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
