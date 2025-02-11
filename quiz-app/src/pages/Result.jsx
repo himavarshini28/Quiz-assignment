@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import Leaderboard from "../components/Leaderboard";
+import Leaderboard from "../components/Leaderboard.jsx";
 import { motion } from "framer-motion";
 import { FaTrophy } from "react-icons/fa";
 
